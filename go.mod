@@ -1,4 +1,4 @@
-module github.com/openimsdk/tools
+module github.com/liserc/openchat-tools
 
 go 1.22.0
 
@@ -32,7 +32,6 @@ require (
 	github.com/jinzhu/copier v0.4.0
 	github.com/magefile/mage v1.15.0
 	github.com/minio/minio-go/v7 v7.0.69
-	github.com/openimsdk/protocol v0.0.69-alpha.4
 	github.com/pkg/errors v0.9.1
 	github.com/qiniu/go-sdk/v7 v7.18.2
 	github.com/redis/go-redis/v9 v9.2.1
@@ -43,7 +42,7 @@ require (
 	go.mongodb.org/mongo-driver v1.12.0
 	go.uber.org/zap v1.24.0
 	golang.org/x/image v0.15.0
-	google.golang.org/grpc v1.62.1
+	google.golang.org/grpc v1.64.0
 	google.golang.org/protobuf v1.34.2
 	gopkg.in/src-d/go-git.v4 v4.13.1
 	gopkg.in/yaml.v2 v2.4.0
@@ -75,7 +74,7 @@ require (
 require (
 	github.com/lestrrat-go/file-rotatelogs v2.4.0+incompatible
 	github.com/lestrrat-go/strftime v1.0.6
-	k8s.io/apimachinery v0.31.2
+	github.com/liserc/openchat-protocol v0.0.72-alpha.55
 	k8s.io/client-go v0.31.2
 )
 
@@ -157,13 +156,13 @@ require (
 	golang.org/x/term v0.21.0 // indirect
 	golang.org/x/text v0.16.0 // indirect
 	golang.org/x/time v0.5.0 // indirect
-	google.golang.org/genproto v0.0.0-20240123012728-ef4313101c80 // indirect
-	google.golang.org/genproto/googleapis/api v0.0.0-20240123012728-ef4313101c80 // indirect
+	google.golang.org/genproto/googleapis/api v0.0.0-20240318140521-94a12d6c2237 // indirect
 	gopkg.in/inf.v0 v0.9.1 // indirect
 	gopkg.in/ini.v1 v1.67.0 // indirect
 	gopkg.in/src-d/go-billy.v4 v4.3.2 // indirect
 	gopkg.in/warnings.v0 v0.1.2 // indirect
 	k8s.io/api v0.31.2 // indirect
+	k8s.io/apimachinery v0.31.2 // indirect
 	k8s.io/klog/v2 v2.130.1 // indirect
 	k8s.io/kube-openapi v0.0.0-20240228011516-70dd3763d340 // indirect
 	k8s.io/utils v0.0.0-20240711033017-18e509b52bc8 // indirect

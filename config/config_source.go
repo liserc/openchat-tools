@@ -17,7 +17,7 @@ package config
 import (
 	"os"
 
-	"github.com/openimsdk/tools/errs"
+	"github.com/liserc/openchat-tools/errs"
 )
 
 // ConfigSource configuring source interfaces.

@@ -2,7 +2,7 @@ package fileutil_test
 
 import (
 	"fmt"
-	"github.com/openimsdk/tools/log/file-rotatelogs/internal/fileutil"
+	"github.com/liserc/openchat-tools/log/file-rotatelogs/internal/fileutil"
 	"testing"
 	"time"
 

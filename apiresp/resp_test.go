@@ -3,9 +3,9 @@ package apiresp
 import (
 	"testing"
 
-	"github.com/openimsdk/protocol/relation"
-	"github.com/openimsdk/protocol/wrapperspb"
-	"github.com/openimsdk/tools/utils/jsonutil"
+	"github.com/liserc/openchat-protocol/relation"
+	"github.com/liserc/openchat-protocol/wrapperspb"
+	"github.com/liserc/openchat-tools/utils/jsonutil"
 )
 
 func TestName(t *testing.T) {

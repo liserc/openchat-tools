@@ -18,7 +18,7 @@ import (
 	"time"
 
 	"github.com/golang-jwt/jwt/v4"
-	"github.com/openimsdk/tools/errs"
+	"github.com/liserc/openchat-tools/errs"
 )
 
 const HoursOneDay = 24
