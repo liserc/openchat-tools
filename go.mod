@@ -2,8 +2,6 @@ module github.com/liserc/openchat-tools
 
 go 1.22.0
 
-toolchain go1.22.5
-
 require (
 	github.com/IBM/sarama v1.43.0
 	github.com/aliyun/aliyun-oss-go-sdk v3.0.2+incompatible
