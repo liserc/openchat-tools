@@ -4,7 +4,7 @@
 package main
 
 import (
-	"github.com/openimsdk/tools/utils/mageutil"
+	"github.com/liserc/openchat-tools/utils/mageutil"
 	"os"
 	"strings"
 )

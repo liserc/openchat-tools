@@ -16,9 +16,9 @@ package datautil
 
 import (
 	"github.com/jinzhu/copier"
-	"github.com/openimsdk/tools/db/pagination"
-	"github.com/openimsdk/tools/errs"
-	"github.com/openimsdk/tools/utils/jsonutil"
+	"github.com/liserc/openchat-tools/db/pagination"
+	"github.com/liserc/openchat-tools/errs"
+	"github.com/liserc/openchat-tools/utils/jsonutil"
 	"math/rand"
 	"reflect"
 	"sort"

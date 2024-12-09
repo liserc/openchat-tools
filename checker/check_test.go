@@ -3,8 +3,8 @@ package checker_test
 import (
 	"testing"
 
-	"github.com/openimsdk/tools/checker"
-	"github.com/openimsdk/tools/errs"
+	"github.com/liserc/openchat-tools/checker"
+	"github.com/liserc/openchat-tools/errs"
 	"github.com/stretchr/testify/assert"
 )
 

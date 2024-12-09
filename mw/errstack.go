@@ -3,7 +3,7 @@ package mw
 import (
 	"context"
 	"fmt"
-	"github.com/openimsdk/tools/log"
+	"github.com/liserc/openchat-tools/log"
 	"runtime"
 	"strconv"
 	"strings"

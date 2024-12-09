@@ -1,6 +1,8 @@
-module github.com/openimsdk/tools
+module github.com/liserc/openchat-tools
 
-go 1.22.0
+go 1.22.7
+
+toolchain go1.22.10
 
 require (
 	github.com/IBM/sarama v1.43.0
@@ -30,7 +32,6 @@ require (
 	github.com/jinzhu/copier v0.4.0
 	github.com/magefile/mage v1.15.0
 	github.com/minio/minio-go/v7 v7.0.69
-	github.com/openimsdk/protocol v0.0.69-alpha.4
 	github.com/pkg/errors v0.9.1
 	github.com/qiniu/go-sdk/v7 v7.18.2
 	github.com/redis/go-redis/v9 v9.2.1
@@ -41,8 +42,8 @@ require (
 	go.mongodb.org/mongo-driver v1.12.0
 	go.uber.org/zap v1.24.0
 	golang.org/x/image v0.15.0
-	google.golang.org/grpc v1.62.1
-	google.golang.org/protobuf v1.34.2
+	google.golang.org/grpc v1.68.0
+	google.golang.org/protobuf v1.35.1
 	gopkg.in/src-d/go-git.v4 v4.13.1
 	gopkg.in/yaml.v2 v2.4.0
 	gorm.io/gorm v1.25.8
@@ -66,13 +67,14 @@ require (
 	github.com/jonboulle/clockwork v0.4.0
 	github.com/pierrec/lz4/v4 v4.1.21 // indirect
 	github.com/rcrowley/go-metrics v0.0.0-20201227073835-cf1acfcdf475 // indirect
-	google.golang.org/genproto/googleapis/rpc v0.0.0-20240318140521-94a12d6c2237 // indirect
+	google.golang.org/genproto/googleapis/rpc v0.0.0-20240903143218-8af14fe29dc1 // indirect
 	gopkg.in/yaml.v3 v3.0.1
 )
 
 require (
 	github.com/lestrrat-go/file-rotatelogs v2.4.0+incompatible
 	github.com/lestrrat-go/strftime v1.0.6
+	github.com/liserc/openchat-protocol v0.0.72-alpha.61-20241209
 	k8s.io/api v0.31.2
 	k8s.io/apimachinery v0.31.2
 	k8s.io/client-go v0.31.2
@@ -80,7 +82,7 @@ require (
 
 require (
 	github.com/bytedance/sonic v1.9.1 // indirect
-	github.com/cespare/xxhash/v2 v2.2.0 // indirect
+	github.com/cespare/xxhash/v2 v2.3.0 // indirect
 	github.com/chenzhuoyu/base64x v0.0.0-20221115062448-fe3a3abad311 // indirect
 	github.com/clbanning/mxj v1.8.4 // indirect
 	github.com/coreos/go-semver v0.3.0 // indirect
@@ -148,16 +150,15 @@ require (
 	go.uber.org/atomic v1.7.0 // indirect
 	go.uber.org/multierr v1.6.0 // indirect
 	golang.org/x/arch v0.3.0 // indirect
-	golang.org/x/crypto v0.24.0 // indirect
-	golang.org/x/net v0.26.0 // indirect
-	golang.org/x/oauth2 v0.21.0 // indirect
-	golang.org/x/sync v0.7.0 // indirect
-	golang.org/x/sys v0.21.0 // indirect
-	golang.org/x/term v0.21.0 // indirect
-	golang.org/x/text v0.16.0 // indirect
+	golang.org/x/crypto v0.27.0 // indirect
+	golang.org/x/net v0.29.0 // indirect
+	golang.org/x/oauth2 v0.23.0 // indirect
+	golang.org/x/sync v0.8.0 // indirect
+	golang.org/x/sys v0.25.0 // indirect
+	golang.org/x/term v0.24.0 // indirect
+	golang.org/x/text v0.18.0 // indirect
 	golang.org/x/time v0.5.0 // indirect
-	google.golang.org/genproto v0.0.0-20240123012728-ef4313101c80 // indirect
-	google.golang.org/genproto/googleapis/api v0.0.0-20240123012728-ef4313101c80 // indirect
+	google.golang.org/genproto/googleapis/api v0.0.0-20240903143218-8af14fe29dc1 // indirect
 	gopkg.in/inf.v0 v0.9.1 // indirect
 	gopkg.in/ini.v1 v1.67.0 // indirect
 	gopkg.in/src-d/go-billy.v4 v4.3.2 // indirect
