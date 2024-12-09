@@ -15,9 +15,9 @@
 package idutil
 
 import (
-	"github.com/openimsdk/tools/utils/encrypt"
-	"github.com/openimsdk/tools/utils/stringutil"
-	"github.com/openimsdk/tools/utils/timeutil"
+	"github.com/liserc/openchat-tools/utils/encrypt"
+	"github.com/liserc/openchat-tools/utils/stringutil"
+	"github.com/liserc/openchat-tools/utils/timeutil"
 	"math/rand"
 	"strconv"
 	"time"

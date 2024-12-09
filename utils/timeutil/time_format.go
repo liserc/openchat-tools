@@ -18,7 +18,7 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/openimsdk/tools/errs"
+	"github.com/liserc/openchat-tools/errs"
 )
 
 const (
